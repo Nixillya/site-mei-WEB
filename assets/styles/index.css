@@ -1,1 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    display: flex;
+    font-family: 'Open Sans';
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    max-width: 65%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
