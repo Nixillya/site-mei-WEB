@@ -4,16 +4,46 @@ body{
     font-family: 'Open Sans';
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #004868;
 }
+#real-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    max-width: 80%;
+}
+
 header{
     display: flex;
     justify-content: center;
 }
+header img{
+    width: 100%;
+}
 main{
     display: flex;
     max-width: 65%;
+    margin: 20px 0 20px 0;
 }
 footer{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    max-height: 40px;
+    margin: 20px 0 20px 0;
+}
+footer a{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+footer a img{
+    height: 100%;
 }
